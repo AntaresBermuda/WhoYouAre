@@ -34,6 +34,6 @@ st.subheader("Which describes you best? Pick 3.")
 st.subheader("", divider="rainbow")
 
 Q2 = st.selectbox("",
-    ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", ""),
+    ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational"),
     key="q2")
 
