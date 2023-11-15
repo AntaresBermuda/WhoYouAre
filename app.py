@@ -10,3 +10,7 @@ import time
 
 st.set_page_config(page_title="Antares Bermuda")
 st.title("Frequency-Severity Modelling")
+
+Q1 = st.selectbox(
+    'If you were sent to war, how would you fight your opponents?',
+    ("Machine Gun", "Remote controlled bomber", "Sniper", "Tank Opperator", "Swarm of small AI-powered drones", "Assasinate Everyone with a Dagger", "Laser Gun", "Lightsaber", "Trowing Axes"))
