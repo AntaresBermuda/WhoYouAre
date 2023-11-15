@@ -79,8 +79,23 @@ Q4_1 = st.selectbox("",
 
 st.write('\n')
 st.write('\n')
-st.subheader("What superpowers would you like to have? Pick 2.")
+st.subheader("What Superpowers would you like to have? Pick 3.")
 
-Q4 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
-    key="q4")
+Q5 = st.selectbox("",
+    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
+    key="q5")
+Q5_1 = st.selectbox("",
+    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
+    key="q5_1")
+Q5_2 = st.selectbox("",
+    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
+    key="q5_2")
+
+
+st.write('\n')
+st.write('\n')
+st.subheader("Choose a pet.")
+
+Q5 = st.selectbox("",
+    ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Monkey", "Humans are the Superior Animal", "I don't Like Animals.. nor humans"),
+    key="q5")
