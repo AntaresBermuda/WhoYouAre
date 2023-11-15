@@ -47,7 +47,7 @@ Q2_2 = st.selectbox("",
     ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"),
     key="q2_2")
 
-
+st.write('\n')
 st.subheader("Which Negative Traits describes you best? Pick 2.")
 st.subheader("", divider="rainbow")
 
