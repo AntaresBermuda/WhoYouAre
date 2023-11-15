@@ -12,7 +12,7 @@ st.set_page_config(page_title="Antares Bermuda")
 st.header("FreqSevModel", divider="rainbow")
 
 
-st.subheader("", divider="rainbow")
+
 
 st.subheader("If you were sent to war, how would you fight your opponents? Pick 3.")
 
@@ -26,11 +26,15 @@ Q1_1 = st.selectbox("",
     "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate with a Dagger", "Bow and Arrow","Laser Gun", "Lightsaber", "Trowing Axes", "Nuke Them", "I wouldn't fight, I'm a peaceful person."),
     key="q1_1")
 
-Q1_1 = st.selectbox("",
+Q1_2 = st.selectbox("",
     ("-", "Machine Gun", "Remote controlled Drones", "FN P90, I'm cultured.", "Sniper", "Tank Opperator", 
     "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate with a Dagger", "Bow and Arrow","Laser Gun", "Lightsaber", "Trowing Axes", "Nuke Them", "I wouldn't fight, I'm a peaceful person."),
-    key="q1_1")
+    key="q1_2")
+
+st.subheader("Which describes you best? Pick 3.")
+st.subheader("", divider="rainbow")
 
 Q2 = st.selectbox("",
     ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", ""),
     key="q2")
+
