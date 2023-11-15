@@ -32,6 +32,8 @@ Q1_2 = st.selectbox("",
     key="q1_2")
 
 
+st.write('\n')
+st.write('\n')
 st.subheader("Which Positive Traits describes you best? Pick 3.")
 st.subheader("", divider="rainbow")
 
@@ -48,6 +50,7 @@ Q2_2 = st.selectbox("",
     key="q2_2")
 
 st.write('\n')
+st.write('\n')
 st.subheader("Which Negative Traits describes you best? Pick 2.")
 st.subheader("", divider="rainbow")
 
@@ -58,7 +61,8 @@ Q3_1 = st.selectbox("",
     ("-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Lazy", "Selfish", "boastful", "Controlling"),
     key="q3_1")
 
-
+st.write('\n')
+st.write('\n')
 st.subheader("What Weapons do you keep just in case. Pick 2.")
 st.subheader("", divider="rainbow")
 
