@@ -13,7 +13,7 @@ st.title("Frequency-Severity Modelling")
 
 Q1 = st.selectbox(
     'If you were sent to war, how would you fight your opponents?',
-    ("-", "Machine Gun", "Remote controlled Drones", "FN P90, I'm a cultured person", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate with a Dagger", "Laser Gun", "Lightsaber", "Trowing Axes", "Nuke Them"))
+    ("-", "Machine Gun", "Remote controlled Drones", "FN P90, I'm a cultured person", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate with a Dagger", "Bow and Arrow","Laser Gun", "Lightsaber", "Trowing Axes", "Nuke Them"))
 
 Q2 = st.selectbox(
     'Which describes you best, pick 3?',
