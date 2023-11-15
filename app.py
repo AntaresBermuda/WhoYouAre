@@ -37,3 +37,10 @@ Q2 = st.selectbox("",
     ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational"),
     key="q2")
 
+Q2_1 = st.selectbox("",
+    ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational"),
+    key="q2_1")
+
+Q2_2 = st.selectbox("",
+    ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational"),
+    key="q2_2")
