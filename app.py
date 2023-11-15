@@ -49,17 +49,19 @@ Q2_2 = st.selectbox("",
     ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"),
     key="q2_2")
 
+
 st.write('\n')
 st.write('\n')
 st.subheader("Which Negative Traits describes you best? Pick 2.")
 st.subheader("", divider="rainbow")
 
 Q3 = st.selectbox("",
-    ("-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Lazy", "Selfish", "boastful", "Controlling"),
+    ("-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"),
     key="q3")
 Q3_1 = st.selectbox("",
-    ("-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Lazy", "Selfish", "boastful", "Controlling"),
+    ("-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"),
     key="q3_1")
+
 
 st.write('\n')
 st.write('\n')
@@ -67,11 +69,18 @@ st.subheader("What Weapons do you keep just in case. Pick 2.")
 st.subheader("", divider="rainbow")
 
 Q4 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
     key="q4")
 
 Q4_1 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
     key="q4_1")
 
 
+st.write('\n')
+st.write('\n')
+st.subheader("What superpowers would you like to have? Pick 2.")
+
+Q4 = st.selectbox("",
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    key="q4")
