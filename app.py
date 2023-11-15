@@ -12,6 +12,8 @@ st.set_page_config(page_title="Antares Bermuda")
 st.header("FreqSevModel", divider="rainbow")
 
 
+st.subheader("", divider="rainbow")
+
 st.subheader("If you were sent to war, how would you fight your opponents? Pick 3.", divider="rainbow")
 
 Q1 = st.selectbox("",
