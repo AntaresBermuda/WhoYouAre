@@ -128,6 +128,9 @@ Arr6 = np.array([1 if x == Q6 else 0 for x in l]) + np.array([1 if x == Q6_1 els
 
 result = list(Arr1[1:])+list(Arr2[1:])+list(Arr3[1:])+list(Arr4)[1:]+list(Arr5[1:])+list(Arr6[1:])
 
+st.write('\n')
+st.subheader("", divider="rainbow")
+st.write('\n')
 
 if st.button("Generate Result"):
     
