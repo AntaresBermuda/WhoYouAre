@@ -107,5 +107,5 @@ Q6_1 = st.selectbox("",
 if st.button("Generate Result"):
     l = ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", 
             "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."]
-    test = [1 if x == Q1 else 0 for x in l] + [1 if x == Q1 else 0 for x in l]
+    test = np.array([1 if x == Q1 else 0 for x in l]) + np.array([1 if x == Q1_1 else 0 for x in l]) + np.array([1 if x == Q1_2 else 0 for x in l])
     st.write(test)
