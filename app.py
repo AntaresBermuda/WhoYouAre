@@ -70,11 +70,11 @@ st.subheader("What Weapons do you keep just in case. Pick 2.")
 
 
 Q4 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka", "Daggers"),
     key="q4")
 
 Q4_1 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka", "Daggers"),
     key="q4_1")
 
 st.write('\n')
@@ -119,7 +119,7 @@ Arr2 = np.array([1 if x == Q2 else 0 for x in l]) + np.array([1 if x == Q2_2 els
 l = ["-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"]
 Arr3 = np.array([1 if x == Q3 else 0 for x in l]) + np.array([1 if x == Q3_1 else 0 for x in l])
 
-l = ["-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"]
+l = ["-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "Bazooka", "Daggers"]
 Arr4 = np.array([1 if x == Q4 else 0 for x in l]) + np.array([1 if x == Q4_1 else 0 for x in l])
 
 l = ["-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
