@@ -130,7 +130,7 @@ result = list(Arr1[1:])+list(Arr2[1:])+list(Arr3[1:])+list(Arr4)[1:]+list(Arr5[1
 if np.sum(result)<15:
     st.error("You can't leave things blank, you can choose the same thing twice if you want.", icon="🚨")
 
-if st.button("Generate Result"):
+if st.button("Generate Result") and np.sum(result)==15:
     
 
 
