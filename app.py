@@ -104,28 +104,34 @@ Q6_1 = st.selectbox("",
     ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"),
     key="q6_1")
 
+
+l = ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", 
+    "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."]
+Arr1 = np.array([1 if x == Q1 else 0 for x in l]) + np.array([1 if x == Q1_1 else 0 for x in l]) + np.array([1 if x == Q1_2 else 0 for x in l])
+
+l = ["-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"]
+Arr2 = np.array([1 if x == Q2 else 0 for x in l]) + np.array([1 if x == Q2_2 else 0 for x in l]) + np.array([1 if x == Q2_2 else 0 for x in l])
+
+l = ["-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"]
+Arr3 = np.array([1 if x == Q3 else 0 for x in l]) + np.array([1 if x == Q3_1 else 0 for x in l])
+
+l = ["-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"]
+Arr4 = np.array([1 if x == Q4 else 0 for x in l]) + np.array([1 if x == Q4_1 else 0 for x in l])
+
+l = ["-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
+    "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"]
+Arr5 = np.array([1 if x == Q5 else 0 for x in l]) + np.array([1 if x == Q5_1 else 0 for x in l]) + np.array([1 if x == Q5_2 else 0 for x in l])
+
+l = ["-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"]
+Arr6 = np.array([1 if x == Q6 else 0 for x in l]) + np.array([1 if x == Q6_1 else 0 for x in l])
+
+result = list(Arr1[1:])+list(Arr2[1:])+list(Arr3[1:])+list(Arr4)[1:]+list(Arr5[1:])+list(Arr6[1:])
+
+    if np.sum(result)<15:
+        st.error("You can't leave things blank, you can choose the same thing twice if you want.", *, icon="🚨")
+
 if st.button("Generate Result"):
     
-    l = ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", 
-        "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."]
-    Arr1 = np.array([1 if x == Q1 else 0 for x in l]) + np.array([1 if x == Q1_1 else 0 for x in l]) + np.array([1 if x == Q1_2 else 0 for x in l])
-    
-    l = ["-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"]
-    Arr2 = np.array([1 if x == Q2 else 0 for x in l]) + np.array([1 if x == Q2_2 else 0 for x in l]) + np.array([1 if x == Q2_2 else 0 for x in l])
 
-    l = ["-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"]
-    Arr3 = np.array([1 if x == Q3 else 0 for x in l]) + np.array([1 if x == Q3_1 else 0 for x in l])
-
-    l = ["-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"]
-    Arr4 = np.array([1 if x == Q4 else 0 for x in l]) + np.array([1 if x == Q4_1 else 0 for x in l])
-
-    l = ["-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
-        "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"]
-    Arr5 = np.array([1 if x == Q5 else 0 for x in l]) + np.array([1 if x == Q5_1 else 0 for x in l]) + np.array([1 if x == Q5_2 else 0 for x in l])
-
-    l = ["-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"]
-    Arr6 = np.array([1 if x == Q6 else 0 for x in l]) + np.array([1 if x == Q6_1 else 0 for x in l])
-
-    result = list(Arr1)+list(Arr2)+list(Arr3)+list(Arr4)+list(Arr5)+list(Arr6)
 
     st.write(result)
