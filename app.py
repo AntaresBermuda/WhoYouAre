@@ -103,3 +103,8 @@ Q6 = st.selectbox("",
 Q6_1 = st.selectbox("",
     ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"),
     key="q6_1")
+
+if st.button("Generate Result"):
+    test = (Q1 == ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", 
+            "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."])
+    st.write(test)
