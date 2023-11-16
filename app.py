@@ -102,10 +102,10 @@ st.subheader("Choose 2 pets.")
 
 # Show funny patrick meme if you chose a pet as a rock.
 Q6 = st.selectbox("",
-    ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal", "I'd rather have a Plant"),
+    ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal", "I would rather have a Plant"),
     key="q6")
 Q6_1 = st.selectbox("",
-    ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal", "I'd rather have a Plant"),
+    ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal", "I would rather have a Plant"),
     key="q6_1")
 
 
@@ -126,7 +126,7 @@ l = ["-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving
     "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water/Ice-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"]
 Arr5 = np.array([1 if x == Q5 else 0 for x in l]) + np.array([1 if x == Q5_1 else 0 for x in l]) + np.array([1 if x == Q5_2 else 0 for x in l])
 
-l = ["-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal, "I'd rather have a Plant""]
+l = ["-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal", "I would rather have a Plant"]
 Arr6 = np.array([1 if x == Q6 else 0 for x in l]) + np.array([1 if x == Q6_1 else 0 for x in l])
 
 result = list(Arr1[1:])+list(Arr2[1:])+list(Arr3[1:])+list(Arr4)[1:]+list(Arr5[1:])+list(Arr6[1:])
