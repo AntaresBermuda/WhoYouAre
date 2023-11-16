@@ -97,7 +97,9 @@ st.write('\n')
 st.subheader("Choose 2 pets.")
 
 # Show funny patrick meme if you chose a pet as a rock.
-Q5 = st.selectbox("",
+Q6 = st.selectbox("",
     ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"),
-    key="q5")
-
+    key="q6")
+Q6_1 = st.selectbox("",
+    ("-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"),
+    key="q6_1")
