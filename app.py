@@ -105,7 +105,16 @@ Q6_1 = st.selectbox("",
     key="q6_1")
 
 if st.button("Generate Result"):
+    
     l = ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", 
             "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."]
-    test = np.array([1 if x == Q1 else 0 for x in l]) + np.array([1 if x == Q1_1 else 0 for x in l]) + np.array([1 if x == Q1_2 else 0 for x in l])
-    st.write(test)
+    Arr1 = np.array([1 if x == Q1 else 0 for x in l]) + np.array([1 if x == Q1_1 else 0 for x in l]) + np.array([1 if x == Q1_2 else 0 for x in l])
+    
+    l = ["-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"]
+    Arr2 = np.array([1 if x == Q2 else 0 for x in l]) + np.array([1 if x == Q2_2 else 0 for x in l]) + np.array([1 if x == Q2_2 else 0 for x in l])
+
+    l = ["-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"]
+    Arr3 = np.array([1 if x == Q3 else 0 for x in l]) + np.array([1 if x == Q3_1 else 0 for x in l])
+
+    l = ["-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"]
+    Arr3 = np.array([1 if x == Q3 else 0 for x in l]) + np.array([1 if x == Q3_1 else 0 for x in l])
