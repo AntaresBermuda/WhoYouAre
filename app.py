@@ -18,17 +18,17 @@ st.subheader("If you were sent to war, how would you fight your opponents? Pick 
 
 Q1 = st.selectbox("",
     ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
-    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
+    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person"),
     key="q1")
 
 Q1_1 = st.selectbox("",
     ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
-    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
+    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person"),
     key="q1_1")
 
 Q1_2 = st.selectbox("",
     ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
-    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
+    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person"),
     key="q1_2")
 
 
@@ -70,11 +70,11 @@ st.subheader("What Weapons do you keep just in case. Pick 2.")
 
 
 Q4 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
     key="q4")
 
 Q4_1 = st.selectbox("",
-    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
+    ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
     key="q4_1")
 
 st.write('\n')
@@ -83,13 +83,16 @@ st.write('\n')
 st.subheader("What Superpowers would you like to have? Pick 3.")
 
 Q5 = st.selectbox("",
-    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
+    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
+    "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water/Ice-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
     key="q5")
 Q5_1 = st.selectbox("",
-    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
+    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
+    "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water/Ice-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
     key="q5_1")
 Q5_2 = st.selectbox("",
-    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
+    ("-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
+    "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water/Ice-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"),
     key="q5_2")
 
 st.write('\n')
@@ -106,8 +109,8 @@ Q6_1 = st.selectbox("",
     key="q6_1")
 
 
-l = ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Throw Grenades", "Swarm of AI-Powered Drones", 
-    "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."]
+l = ["-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
+    "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person"]
 Arr1 = np.array([1 if x == Q1 else 0 for x in l]) + np.array([1 if x == Q1_1 else 0 for x in l]) + np.array([1 if x == Q1_2 else 0 for x in l])
 
 l = ["-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"]
@@ -116,11 +119,11 @@ Arr2 = np.array([1 if x == Q2 else 0 for x in l]) + np.array([1 if x == Q2_2 els
 l = ["-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"]
 Arr3 = np.array([1 if x == Q3 else 0 for x in l]) + np.array([1 if x == Q3_1 else 0 for x in l])
 
-l = ["-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"]
+l = ["-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Medieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"]
 Arr4 = np.array([1 if x == Q4 else 0 for x in l]) + np.array([1 if x == Q4_1 else 0 for x in l])
 
 l = ["-", "Indestructible", "Super Strenght", "Teleportation", "Healing/Reviving Powers", "Invisability", "Never Age", "X-ray Vision", "Time-Travel", "Shape-Shifting", "Extreme Intelligence", 
-    "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"]
+    "Sonic Powers", "Ultra Speed", "Lighting/Electric Powers", "Fire-Bending", "Water/Ice-Bending", "Air-Bending", "Earth-Bending", "Magical Spells", "I don't need Superpowers"]
 Arr5 = np.array([1 if x == Q5 else 0 for x in l]) + np.array([1 if x == Q5_1 else 0 for x in l]) + np.array([1 if x == Q5_2 else 0 for x in l])
 
 l = ["-", "Cat", "Dog", "Fish", "Snake", "Bear", "A Rock", "Roach", "Cow", "Hamster", "Rat", "Bird", "Scorpion", "Fox", "Turtle", "Toad", "Horse", "Deer", "Monkey", "Humans are the Superior Animal"]
