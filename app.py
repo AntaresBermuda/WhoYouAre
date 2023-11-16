@@ -137,4 +137,4 @@ if st.button("Generate Result"):
     if np.sum(result)<15:
         st.error("You can't leave things blank, you can choose the same thing twice if you want.", icon="🚨")
     else:
-        st.write("")
+        st.write(len(result))
