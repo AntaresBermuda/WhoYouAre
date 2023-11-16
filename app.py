@@ -33,7 +33,6 @@ Q1_2 = st.selectbox("",
 
 st.subheader("", divider="rainbow")
 st.write('\n')
-st.write('\n')
 st.subheader("Which Positive Traits describes you best? Pick 3.")
 
 
@@ -52,7 +51,6 @@ Q2_2 = st.selectbox("",
 
 st.subheader("", divider="rainbow")
 st.write('\n')
-st.write('\n')
 st.subheader("Which Negative Traits describes you best? Pick 2.")
 
 
@@ -65,7 +63,6 @@ Q3_1 = st.selectbox("",
 
 
 st.subheader("", divider="rainbow")
-st.write('\n')
 st.write('\n')
 st.subheader("What Weapons do you keep just in case. Pick 2.")
 
@@ -81,7 +78,6 @@ Q4_1 = st.selectbox("",
 
 st.subheader("", divider="rainbow")
 st.write('\n')
-st.write('\n')
 st.subheader("What Superpowers would you like to have? Pick 3.")
 
 Q5 = st.selectbox("",
@@ -96,7 +92,6 @@ Q5_2 = st.selectbox("",
 
 
 st.subheader("", divider="rainbow")
-st.write('\n')
 st.write('\n')
 st.subheader("Choose 2 pets.")
 
