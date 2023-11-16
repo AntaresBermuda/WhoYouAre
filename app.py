@@ -31,11 +31,11 @@ Q1_2 = st.selectbox("",
     "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
     key="q1_2")
 
-
+st.subheader("", divider="rainbow")
 st.write('\n')
 st.write('\n')
 st.subheader("Which Positive Traits describes you best? Pick 3.")
-st.subheader("", divider="rainbow")
+
 
 Q2 = st.selectbox("",
     ("-", "Strategic", "Skillful", "Athletic", "Brute Force", "Helpful", "Patient", "Powerful", "Sneaky", "Genius", "Talented", "Unpredictable", "Rational", "Friendly", "Efficient", "Productive", "Optimistic", "Modest"),
@@ -50,10 +50,11 @@ Q2_2 = st.selectbox("",
     key="q2_2")
 
 
+st.subheader("", divider="rainbow")
 st.write('\n')
 st.write('\n')
 st.subheader("Which Negative Traits describes you best? Pick 2.")
-st.subheader("", divider="rainbow")
+
 
 Q3 = st.selectbox("",
     ("-", "Impatient", "Revengeful", "Just Crazy", "Pessimistic", "Angry", "Paranoid", "Lazy", "Selfish", "boastful", "Controlling"),
@@ -63,10 +64,11 @@ Q3_1 = st.selectbox("",
     key="q3_1")
 
 
+st.subheader("", divider="rainbow")
 st.write('\n')
 st.write('\n')
 st.subheader("What Weapons do you keep just in case. Pick 2.")
-st.subheader("", divider="rainbow")
+
 
 Q4 = st.selectbox("",
     ("-", "Two handguns", "My Fists", "Taser Gun", "FN P90, I'm cultured", "A Mdieval Sword", "An ancient book with Magical Spells", "Bow and Arrow", "Lightsaber", "bazooka"),
@@ -77,6 +79,7 @@ Q4_1 = st.selectbox("",
     key="q4_1")
 
 
+st.subheader("", divider="rainbow")
 st.write('\n')
 st.write('\n')
 st.subheader("What Superpowers would you like to have? Pick 3.")
@@ -92,6 +95,7 @@ Q5_2 = st.selectbox("",
     key="q5_2")
 
 
+st.subheader("", divider="rainbow")
 st.write('\n')
 st.write('\n')
 st.subheader("Choose 2 pets.")
