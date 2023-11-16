@@ -94,7 +94,7 @@ Q5_2 = st.selectbox("",
 
 st.write('\n')
 st.write('\n')
-st.subheader("Choose a pet.")
+st.subheader("Choose 2 pets.")
 
 # Show funny patrick meme if you chose a pet as a rock.
 Q5 = st.selectbox("",
