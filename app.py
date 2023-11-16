@@ -17,17 +17,17 @@ st.subheader("", divider="rainbow")
 st.subheader("If you were sent to war, how would you fight your opponents? Pick 3.")
 
 Q1 = st.selectbox("",
-    ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", 
+    ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
     "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
     key="q1")
 
 Q1_1 = st.selectbox("",
-    ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", 
+    ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
     "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
     key="q1_1")
 
 Q1_2 = st.selectbox("",
-    ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", 
+    ("-", "Gun them dowm from the Trenches", "Remote controlled Mortars", "Sniper", "Tank Opperator", "Fighter Jet Pilot",
     "Throw Grenades", "Swarm of AI-Powered Drones", "Assasinate them at Night", "Satelite Space Lasers", "Slash them with an Axe", "Drop a Nuke", "I wouldn't fight, I'm a peaceful person."),
     key="q1_2")
 
@@ -137,4 +137,4 @@ if st.button("Generate Result"):
     if np.sum(result)<15:
         st.error("You can't leave things blank, you can choose the same thing twice if you want.", icon="🚨")
     else:
-        st.write(result)
+        
